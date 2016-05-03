@@ -1,120 +1,56 @@
 <!doctype html>
-
-<!--
-Additional Specifications:
-
-Colors
-Teal color (used for headings and backgrounds) = #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings) = #777777
-Main header background color = #ffffff
-Main header border color = #cccccc
-Footer background color = #666666
-Main content background color = #ffffff
-Main content border color = #dddddd
-Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
-Fonts
-Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;
-All other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-Profile image found on index.html
-Use a picture of yourself. If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder
-Portfolio images
-Placeholder images can be found LoremPixel. Save the images to your images folder
-Social link images (e.g. Github, LinkedIn, and StackOverflow)
-These images can be found on IconFinder. Save the images to your images folder
-Background Images
-The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
-Dimensions
-The width of the entire content area is 960px wide
-The width of the main section content is 650px wide
-The width of the sidebar is 270px
-Pro-tip. Use the Page Ruler extension to measure the size of elements
--->
-
 <html>
-	<head>
-		<title>Homework week-1-html-css-github Basic Portfolio - index.html</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
+<head>
+	<meta charset="UTF-8">
+	<title>BasicPortfolio index.html</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
 
-		<header id="header1">
-			<h2 id="name">Royce Ching</h2>
-
-			<nav class="nav1">
-				<ul>
-	           	<li class="contact">
-	              <a href="contact.html">
-	                Contact
-	              </a>
-	            </li>  
-	            <li class="portfolio">
-	              <a href="portfolio.html">
-	                Portfolio
-	              </a>
-	            </li>
-	            <li class="about">
-	              <a href="index.html">
-	                About
-	              </a>
-	            </li><!--
-	            <li class="close-menu" id="close-menu">
-	              <a href="#menu-closed">
-	                × Collapse
-	              </a>
-	            </li>
-	            <li class="show-menu" id="open-menu">
-	              <a href="#menu">
-	                ☰ Menu
-	              </a>
-	            </li> -->
-	          </ul>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Royce Ching</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
 			</nav>
+		</div>
+	</header>
 
-		</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>About Me</h1>
 
-		
+			<img id="bio-image" src="assets/images/IMG_20160424_142128.jpg" width="190" height="240" alt="Royce">
 
-		<section id="section1">
-			<h3 id="about-me">About Me</h3>
+			<p>Royce Ching is an engineer, programmer, golfer, and a longhorn. </p>
 
-			<article id="article1">
-				article
+			<p>I currently live in Austin, Texas, USA and I have travelled &amp; lived in many parts of Europe, Asia, and the Americas.</p>
 
-				<!--<div class="parts"> -->
-					<div id="h123">
-						h1, h2, h3
-					</div>
-				
-					<p id="p1">
-						p
-					</p>
-
-				<!-- </div> -->
-			</article>
+			<p></p>
 
 		</section>
 
-		<aside id="aside1">
-			<h3 id="connect">Connect with Me</h3>
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
-			<a href="https://github.com/RamblinRoyce">
-            <img border="0" alt="Github" src="assets/images/1461544139_github_square_black.png" width="64" height="64">
-            </a>
+				<a href="https://github.com/RamblinRoyce">
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<a href="https://www.linkedin.com/in/royce-ching-3509831">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<a href="http://stackexchange.com/users/8315128/ramblinroyce">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
+	</div>
 
-            <a href="https://www.linkedin.com/in/royce-ching-3509831">
-            <img border="0" alt="LinkedIn" src="assets/images/1461544207_linkedin_square_color.png" width="64" height="64">
-            </a>
-
-             <a href="http://stackexchange.com/users/8315128/ramblinroyce">
-            <img border="0" alt="LinkedIn" src="assets/images/1461544226_stackoverflow2.png" width="64" height="64">
-            </a>
-            
-		</aside>
-
-		<footer id="footer1">
-			footer
-		</footer>
-		
-		
-	</body>
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Royce Ching
+		</div>
+	</footer>
+</body>
 </html>

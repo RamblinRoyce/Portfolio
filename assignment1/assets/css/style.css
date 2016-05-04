@@ -224,6 +224,129 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 960px) {
+
+	body {
+	}
+
+	#masthead {		
+	}
+
+	nav {
+		margin-right: 8%;
+	}
+
+	.container {	
+}
+
+	#logo {
+		margin-left: 8%;	
+	}
+
+	.main-section {
+		width: 50%;
+		margin-left: 8%;
+		float: left;	
+	}
+
+	.sidebar {
+		margin-right: 8%;			
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+	}
+
+	#masthead {		
+	}
+
+	nav {
+		margin-right: 2%;
+	}
+
+	.container {	
+}
+
+	#logo {
+		margin-left: 2%;	
+	}
+
+	.main-section {
+		width: 100%;
+		max-width: 710px;
+		margin-left: 2%;
+		float: left;	
+	}
+
+	.sidebar {
+		max-width: 710px;
+		margin-left: 2%;	
+		float: left;	
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+	}
+
+	#masthead {	
+		position: static;	
+	}
+
+
+	.container {	
+}
+
+	#logo {
+		margin: 2px;	
+		
+		width: 600px;
+		
+	}
+	nav {
+		clear: both;
+		width: 600px;
+		float: left;
+		margin: 2px;
+		text-align: center;
+
+	}
+
+
+	.main-section {
+		
+		width: 600px;
+		margin: 3%;
+		float: left;	
+	}
+
+	.sidebar {
+		width: 600px;
+		margin: 3%;	
+		float: left;	
+	}
+	footer {
+		width: 640px;
+	}
+
+
+/* Portfolio.html Media Screen */
+
+	.work {
+		width: 538px;
+	
+}
+
+
+
+
+
+/*
+
 @media screen and (max-width: 768px) {
 
 	body {
